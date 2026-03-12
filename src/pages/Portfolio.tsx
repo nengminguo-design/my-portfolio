@@ -42,6 +42,9 @@ export default function Portfolio() {
   const arBaseUrl = '/portfolio/portfolio5-AR 腹腔镜手术/';
   const arImages = Array.from({ length: 26 }, (_, i) => `${arBaseUrl}${i + 1}.png`);
 
+  const vocaflowBaseUrl = '/portfolio/portfolio6-vocaflow/';
+  const vocaflowImages = [`${vocaflowBaseUrl}1.png`];
+
   const projects: Project[] = [
     {
       title: 'Spark！-儿童灵感绘画应用',
@@ -82,6 +85,14 @@ export default function Portfolio() {
       tags: ['AR', '医疗设计', '交互'],
       detailImages: arImages,
       categories: ['UI/UX 设计', '智能产品']
+    },
+    {
+      title: 'VocaFlow-智能语音助手',
+      subtitle: '是一款轻量级的语音转文字工具，方便用户与大模型进行更快速的对话。',
+      cover: vocaflowImages[0],
+      tags: ['语音识别', 'AI', 'AI coding'],
+      detailImages: vocaflowImages,
+      categories: ['ai coding']
     }
   ];
 
