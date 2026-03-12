@@ -1,6 +1,7 @@
 import { Download, Send, Code, Briefcase, Share2, Smartphone, Globe, Database, Palette, Terminal, CheckCircle2, Rocket } from 'lucide-react';
-import profilePic from '../profile-picture/1.png';
 import resumePdf from '../jianli/郭能敏-18300155496.pdf';
+
+const profilePic = '/profile.png';
 
 export default function Home() {
   const handleDownload = () => {
