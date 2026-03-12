@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a855f7;
+  --color-background-light: #f7f5f8;
+  --color-background-dark: #191022;
+  --font-display: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: "PingFang SC", sans-serif;
+}
+
+body {
+  @apply bg-background-light text-slate-900 font-display min-h-screen;
+}
