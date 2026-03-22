@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
+import LazyImage from '../components/LazyImage';
 
 interface Project {
   title: string;
@@ -143,8 +144,8 @@ export default function Portfolio() {
                     查看详情
                   </button>
                 </div>
-                <img 
-                  src={project.cover} 
+                <LazyImage
+                  src={project.cover}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -203,7 +204,7 @@ export default function Portfolio() {
               {/* Image Content Section */}
               <div className="w-full p-0 m-0 flex flex-col gap-0">
                 {selectedProject.detailImages.map((img, idx) => (
-                  <img 
+                  <LazyImage
                     key={idx}
                     src={img}
                     alt={`${selectedProject.title} detail ${idx + 1}`}

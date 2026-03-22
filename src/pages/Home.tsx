@@ -1,13 +1,12 @@
 import { Download, Send, Code, Briefcase, Share2, Smartphone, Globe, Database, Palette, Terminal, CheckCircle2, Rocket } from 'lucide-react';
-import resumePdf from '../jianli/郭能敏-18300155496.pdf';
 
 const profilePic = '/profile.png';
 
 export default function Home() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = resumePdf;
-    link.download = '郭能敏-18300155496.pdf';
+    link.href = '/resume.pdf';
+    link.download = '郭能敏-简历.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
