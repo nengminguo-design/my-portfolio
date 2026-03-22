@@ -40,7 +40,7 @@ export default function Portfolio() {
   const xingzheBaseUrl = '/portfolio/portfolio4-Xingzhe/';
   const xingzheImages = [`${xingzheBaseUrl}Frame%201.png`];
 
-  const arBaseUrl = '/portfolio/portfolio5-AR 腹腔镜手术/';
+  const arBaseUrl = '/portfolio/portfolio5-AR-surgery/';
   const arImages = Array.from({ length: 26 }, (_, i) => `${arBaseUrl}${i + 1}.png`);
 
   const vocaflowBaseUrl = '/portfolio/portfolio6-vocaflow/';

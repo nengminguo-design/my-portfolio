@@ -4,7 +4,19 @@
       "Bash(npm run dev)",
       "Bash(ls:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git rm:*)",
+      "Bash(dir:*)",
+      "Bash(du -sh:*)",
+      "Bash(where:*)",
+      "Bash(npm install:*)",
+      "Bash(node:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
